@@ -1,0 +1,32 @@
+{
+    "name": "anatolyduzenko/usaepay-php",
+	"type": "library",
+	"description": "USAePay PHP Library provides an easy to use PHP interface for running server to server processing",
+    "keywords": [
+        "usaepay",
+        "api",
+        "php",
+        "merchant"
+    ],
+	"homepage": "https://github.com/anatolyduzenko/usaepay-php",
+	
+	
+    "authors": [
+        {
+            "name": "USAePay",
+            "email": "devsupport@usaepay.com"
+        },
+        {
+            "name": "Anatoly Duzenko",
+			"email": "anatoliy.duzenko@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.6"
+    },
+    "autoload": {
+        "classmap": [
+			"class.usaepay.php"
+        ]
+    }
+}
